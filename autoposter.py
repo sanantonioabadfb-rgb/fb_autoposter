@@ -75,7 +75,7 @@ def home():
 def programar():
     print("⛪ Publicador Parroquial iniciado...")
     datos = get_dominicos_content()
-    status = -1
+    status = datos
     if datos:
         mensaje = build_message(datos)
 
