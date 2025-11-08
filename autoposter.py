@@ -86,7 +86,7 @@ def programar():
         status = schedule_facebook_post(mensaje, scheduled_time)
     else:
         print("⚠️ No se pudo extraer contenido desde dominicos.org")
-    return f"🕒 Publicación programada con status: {datos}"
+    return f"🕒 Publicación programada con status: {status}"
 
 
 if __name__ == '__main__':
